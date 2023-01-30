@@ -1,3 +1,5 @@
+/* GENERAL SELECTORS */
+
 *{
     margin: auto;
     box-sizing: border-box;
@@ -12,6 +14,8 @@ table{
 ul{
     margin-bottom: 20px;
 }
+
+/* IDs */
 
 #photoInfo{
     font-size: 0.7rem;
@@ -37,12 +41,14 @@ ul{
     font-size: 0.8rem;
 }
 
+/* CLASSES */
+
 .textColor{
     color: grey;
 }
 
 .divSpacing{
-    margin: 20px 0 20px 0;
+    margin: 20px 5px 20px 5px;
 }
 
 .tableHeadingRow{
@@ -52,4 +58,36 @@ ul{
 
 .tableRowsColor{
     background-color: rgb(173, 202, 255);
+}
+
+.footerImg1{
+    font-size: 1.5rem;
+    color:  white;
+    padding: 10px;
+    height: 208px;
+    width: 312px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.footerImg2{
+    font-size: 1.5rem;
+    color:  white;
+    padding: 10px;
+    height: 208px;
+    width: 312px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.textMargin{
+    margin: 0 5px 0 5px;
+}
+
+.marker{
+    background-color: yellow;
 }
