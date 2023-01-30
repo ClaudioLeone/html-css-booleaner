@@ -1,7 +1,20 @@
 *{
     margin: auto;
-    padding: 0;
     box-sizing: border-box;
+}
+
+table{
+    font-size: 1rem;
+    text-align: left;
+    width: 100%;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+#photoInfo{
+    font-size: 0.7rem;
 }
 
 #banner{
@@ -13,7 +26,7 @@
 
 #bannerImg{
     height: 50px;
-    margin: 45px 0 0 5px;
+    margin-top: 45px;
 }
 
 #subTitleSpan{
@@ -21,10 +34,22 @@
 }
 
 #publicationDate{
-    font-size: 10px;
+    font-size: 0.8rem;
 }
 
 .textColor{
     color: grey;
 }
 
+.divSpacing{
+    margin: 20px 0 20px 0;
+}
+
+.tableHeadingRow{
+    color: white;
+    background-color:cornflowerblue;
+}
+
+.tableRowsColor{
+    background-color: rgb(173, 202, 255);
+}
